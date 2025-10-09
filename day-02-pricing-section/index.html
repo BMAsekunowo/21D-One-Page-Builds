@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing Section</title>
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <div class="header">
+    <nav>
+      <h1>Pricing.</h1>
+
+      <span class="selectmode">
+        <label for="mode">Choose Mode</label>
+        <select name="mode" id="mode">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </span>
+    </nav>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <div class="hero">
+    <div class="intro">
+      <h3>Pricing.</h3>
+      <h1>Simple, Transparent Pricing at Your Fingertips</h1>
+      <p>Choose the plan that best fits your needs. No hidden fees, no surprises.</p>
+
+      <div class="period">
+        <span class="label monthly active">Monthly</span>
+
+        <label class="switch" for="periodSwitch">
+          <input type="checkbox" id="periodSwitch" aria-label="Toggle pricing period" />
+          <span class="slider"></span>
+        </label>
+
+        <span class="label yearly">Yearly</span>
+      </div>
+    </div>
+
+    <div class="prices">
+      <article class="plan">
+        <h2>Basic</h2>
+        <p class="price" data-month="9" data-year="90">$9/mo</p>
+        <ul>
+          <li>Access to core features</li>
+          <li>Email support</li>
+          <li>Single user</li>
+        </ul>
+        <button class="choose">Choose Plan</button>
+      </article>
+
+      <article class="plan">
+        <p class="note">Most Popular</p>
+        <h2>Pro</h2>
+        <p class="price" data-month="29" data-year="290">$29/mo</p>
+        <ul>
+          <li>Access to all features</li>
+          <li>Priority email support</li>
+          <li>Up to 5 users</li>
+        </ul>
+        <button class="choose">Choose Plan</button>
+      </article>
+
+      <article class="plan">
+        <h2>Enterprise</h2>
+        <p class="price" data-month="49" data-year="490">$49/mo</p>
+        <ul>
+          <li>Access to all features</li>
+          <li>Priority email & phone support</li>
+          <li>Unlimited users</li>
+        </ul>
+        <button class="choose">Choose Plan</button>
+      </article>
+    </div>
+  </div>
+
+  <!-- ===== SCRIPT ===== -->
+  <script src="js/main.js">
+    
+  </script>
+</body>
+</html>
